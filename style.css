@@ -1,0 +1,92 @@
+img{
+    border-radius: 120px;
+    margin-top: -1%;
+    width: 30%;
+    object-fit: fill;
+}
+body{
+    background-color: #d0f2ff;
+}
+#nome{
+    color: #2E382E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    margin-top: -0.1%;
+    -webkit-text-stroke: 1.5px #FFF;
+}
+#lugar{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: oxygen;
+    margin-top: 1%;
+}
+#port{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#553e66;
+    font-size: 3em;
+    -webkit-text-stroke: 1.5px #533c63;
+}
+#sobre{
+    text-align:justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    display:inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.button{
+    position:absolute;
+    font: bold 12px/24px arial, helvetica, sans-aerif;			
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    font-display: center;
+    display:block;
+    border-radius: 10px;
+    padding: 0.8%;
+    padding-left: 1%;
+    box-sizing: border-box;
+}
+#git{
+    margin-left: 55%;
+    padding-top:-10%;
+    background-color: #24292F;
+    color: #FFFFFF;    
+}
+#linkedin{
+    margin-left: 37%;
+    background-color: #0A66C2;
+    color: #FFFFFF; 
+}
+#imgGit{
+    width: 3%;
+    margin-left: 15%;
+    margin-bottom: -3.1%;
+}
+#imgLin{
+    width: 4.2%;
+    margin-left: 33%;
+    margin-bottom: -3.8%;
+}
+#git:hover{
+    background-color: #14171b;
+    transition: 0.25s all;
+}
+#linkedin:hover{
+    background-color: #054f77;
+    transition: 0.25s all;
+}
+#hab{
+    padding-left: 14.7%;
+    color: #012516;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    -webkit-text-stroke: 1.5px #002918;
+}
+#imgHab{
+    width:6%;
+    margin-left: 7.7%;
+    margin-bottom: -6.1%;
+}
