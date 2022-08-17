@@ -1,92 +1,175 @@
-img{
-    border-radius: 120px;
-    margin-top: -1%;
-    width: 30%;
-    object-fit: fill;
+
+/* Customizando o Header */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
-body{
-    background-color: #d0f2ff;
+header{
+    height: 3.8em;
 }
-#nome{
-    color: #2E382E;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2em;
-    margin-top: -0.1%;
-    -webkit-text-stroke: 1.5px #FFF;
-}
-#lugar{
-    font-size: 1.5em;
-    font-weight: 500;
-    font-family: oxygen;
-    margin-top: 1%;
-}
-#port{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#553e66;
-    font-size: 3em;
-    -webkit-text-stroke: 1.5px #533c63;
-}
-#sobre{
-    text-align:justify;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    display:inline-block;
-    margin-left: 15%;
-    margin-right: 15%;
+.max-wid{
+    max-width: 1920px;
+    display: flex;
+    padding: 0 80px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
 
 }
-.button{
-    position:absolute;
-    font: bold 12px/24px arial, helvetica, sans-aerif;			
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.5em;
-    font-display: center;
-    display:block;
+.nav-bar{
+    background-color: #2e343f;
+    width: 100%;
+    position: fixed;
+}
+.lista-menu li a{
+    color: #FFE8D1;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 2px solid #1e1e2a;
     border-radius: 10px;
-    padding: 0.8%;
-    padding-left: 1%;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+.lista-menu li a:hover{
+    color: #00e6ea;
+    background-color: #262634;
+    transition: 0.6s;
+    border: 2px solid #FFE8D1;
+}
+.lista-menu li{
+    display: inline-block;
+    margin: 10px;
+}
+.lista-menu li:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.logo a{
+    color:#FFE8D1;
+    font-size: 35px;
+    transition: transform .4s;
+}
+.logo:hover span{
+    color: #00e6ea;
+    transition: 0.2s;
+}
+.logo:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+.span{
+    color: #2FC18C;
+}
+
+/* Customizando a Main */
+
+.home-conteiner{
+    max-width: 1920px;
+    height: 90vh;
+    background: url(img/backgroundCrianca3.png),#29313D ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
     box-sizing: border-box;
+    padding: 0 100px;
 }
-#git{
-    margin-left: 55%;
-    padding-top:-10%;
-    background-color: #24292F;
-    color: #FFFFFF;    
+.nome{
+    font-size: 60px;
+    letter-spacing: 2.5px;
+    font-family: 'Josefin Sans';
+    color:#FFE8D1;
 }
-#linkedin{
-    margin-left: 37%;
-    background-color: #0A66C2;
-    color: #FFFFFF; 
+.profissao{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans';
+    color:#e2cfbc;
+    text-shadow: #1e1e2a ;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
 }
-#imgGit{
-    width: 3%;
-    margin-left: 15%;
-    margin-bottom: -3.1%;
+.social-media a{
+    color: #FFE8D1;
+    display: inline-block;
+    margin-top: 3rem;
+    padding:0.8rem 2.3rem;
+    border: 2px solid #1e1e2a;
+    margin: 1rem;
+    border-radius: 10px;
+    font-family: 'Josefin Sans';
+    margin-left: 2.9rem;;
 }
-#imgLin{
-    width: 4.2%;
-    margin-left: 33%;
-    margin-bottom: -3.8%;
+.social-media a:hover{
+    color:#00e6ea;
+    background-color: #262634;
+    transition: 0.5s;
+    border: 2px solid #FFE8D1;
 }
-#git:hover{
-    background-color: #14171b;
-    transition: 0.25s all;
+.transicaoCorNome:hover span{
+    color: #00e6ea;
+    transition: 0.6s;
 }
-#linkedin:hover{
-    background-color: #054f77;
-    transition: 0.25s all;
+.crescerNome:hover{
+    transform: scale(1.02);
+    transition: 0.6s;
 }
-#hab{
-    padding-left: 14.7%;
-    color: #012516;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3em;
-    -webkit-text-stroke: 1.5px #002918;
+.crescerBotao:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
 }
-#imgHab{
-    width:6%;
-    margin-left: 7.7%;
-    margin-bottom: -6.1%;
+/* Customizando o Sobre */
+.about-conteiner{
+    max-width: 1920px;
+    height: 95vh;
+    background:#2e3745 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#imgAbout{
+    max-width: 30%;
+    min-width: 10%;
+    margin: 4rem;
+}
+#about-text{
+    width: 100px
+}
+.texto h2{
+    font-size: 66px;
+    letter-spacing: 2.5px;
+    font-family: 'Josefin Sans';
+    color:#FFE8D1;
+    margin-left: -1.2rem;
+
+}
+.texto h5{
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans';
+    color:#e2cfbc;
+    text-shadow: #1e1e2a ;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0rem;
+}
+.texto p{
+    display: inline-block;
+    text-align:left;
+    max-width: 500px;
+    font-family: 'Josefin Sans';
+    color:#e3ccb4;
+    font-weight: bold;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+    line-height: 19px;
 }

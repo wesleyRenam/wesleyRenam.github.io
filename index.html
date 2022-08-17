@@ -4,31 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portifolio</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
+    <script src="https://kit.fontawesome.com/89963a2443.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/rocket.png"/>
+
 </head>
 <body>
-    <center>
-        <hr>
-    <h1 id="port">Portifólio</h1>
-    <hr>
-    <h2 id="nome">Wesley Renam de Souza Santos</h2>
-    <img src="minhaFoto.jpg" alt="">
-    <p id ='lugar'>Olá, eu sou o Wesley moro em Aracaju-SE :)</p>
-    </center>
-    <hr>
-    <p id="sobre">Desde cedo a tecnologia faz parte da minha vida, com apenas 20 anos já trabalhei em algumas empresas como a TransPerfect e sou apaixonado por tecnologia e programação, cozinhar é uma paixão que eu levo mais como Hobby :)
-        Atualmente estudante da Trybe aprendendo a desenvolver projetos reais e funcionais, exercitando as minhas softs skills e evoluindo minhas habilidades de Programador !<br> Amante de cinema e animes sempre estou buscando novas coisas para agregar meu crescimento pessoal e profissional.</p>
-        <img src="linkedin.png" alt="" id="imgLin">
-        <img src="github.png" alt="" id="imgGit">
-        <a href="https://www.linkedin.com/in/wesley-renam-de-souza-santos-8267a7206/" class="button" target="_blank" id="linkedin">LinkedIn</a>
-        <a href="https://github.com/wesleyRenam" class="button" target="_blank" class="button" id="git">GitHub</a>
-        <br><br><br><br><br>
-        <hr>
-    <img src="habilidades.png" alt="" id="imgHab">
-    <h2 id ='hab'>Habilidades</h2>
-   
-
-    <hr>
+    <header>
+        <nav class="nav-bar">
+            <div class="max-wid">
+                <div class="logo"><a href="#">Portfó<span class="span">lio</span></a></div>
+                <ul class="lista-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home-conteiner" id="home">
+                <h1 class="nome transicaoCorNome crescerNome">Wesley <span class="span">Renam</span></h1>
+                <h2 class="profissao transicaoCorNome crescerNome"><span class="span">Front End</span> Web Developer</h2>
+                <div class="social-media">
+                    <a class="crescerBotao" target="_blank" href="https://www.linkedin.com/in/wesley-renam-de-souza-santos-8267a7206/">Linkedin</a>
+                    <a class="crescerBotao" target="_blank" href="https://github.com/wesleyRenam">GitHub</a>
+            </div>
+        </section>
+        <section class="about-conteiner" id="about">
+            <img src="img/imgAbout.jpg" id="imgAbout" class="crescerNome">
+            <div class="texto">
+                <h2 class="crescerNome transicaoCorNome">Sobre <span class="span">Mim</span></h2>
+                <h5>Minha Vida</h5>
+                <p class="about-text"> Desde cedo a tecnologia faz parte da minha vida, com apenas 20 anos já trabalhei em algumas empresas como a TransPerfect e sou apaixonado por tecnologia e programação, cozinhar é uma paixão que eu levo mais como Hobby :) Atualmente estudante da Trybe aprendendo a desenvolver projetos reais e funcionais, exercitando as minhas softs skills e evoluindo minhas habilidades de Programador !
+                Amante de cinema e animes sempre estou buscando novas coisas para agregar meu crescimento pessoal e profissional.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
